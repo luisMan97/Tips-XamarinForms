@@ -31,7 +31,7 @@ namespace TipsXamarinForms.Data
 
 		public async Task<List<Tip>> GetTipsAsync()
 		{
-			return await Connection.Table<Tip>().ToListAsync();
+			return await Connection.Table<Tip>().OrderByDescending(e => e.UpdateDate).ToListAsync();
         }
 
         public async Task<int> DeleteTipAsync(Tip tip)

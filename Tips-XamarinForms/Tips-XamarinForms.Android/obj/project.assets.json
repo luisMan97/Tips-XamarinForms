@@ -3836,11 +3836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
+      "projectUniqueName": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
       "projectName": "Tips_XamarinForms.Android",
-      "projectPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
+      "projectPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
       "packagesPath": "/Users/wmolina/.nuget/packages/",
-      "outputPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/obj/",
+      "outputPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3855,8 +3855,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
-              "projectPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj"
+            "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
+              "projectPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj"
             }
           }
         }

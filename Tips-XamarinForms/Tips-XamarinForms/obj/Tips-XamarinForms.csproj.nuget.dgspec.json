@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {}
+    "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {}
   },
   "projects": {
-    "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
+    "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
+        "projectUniqueName": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
         "projectName": "Tips-XamarinForms",
-        "projectPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
+        "projectPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
         "packagesPath": "/Users/wmolina/.nuget/packages/",
-        "outputPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/obj/",
+        "outputPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wmolina/.config/NuGet/NuGet.Config"

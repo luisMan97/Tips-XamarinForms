@@ -64,7 +64,7 @@ namespace TipsXamarinForms.Sections.NewTip.ViewModel
                         Title = TitleText.ToString(),
                         Description = DescriptionText.ToString(),
                         CreateDate = Tip.CreateDate,
-                        UpdateDate = DateTime.UtcNow.Date
+                        UpdateDate = DateTime.Now
                     };
                 }
                 else
@@ -73,8 +73,8 @@ namespace TipsXamarinForms.Sections.NewTip.ViewModel
                     {
                         Title = TitleText.ToString(),
                         Description = DescriptionText.ToString(),
-                        CreateDate = DateTime.UtcNow.Date,
-                        UpdateDate = DateTime.UtcNow.Date
+                        CreateDate = DateTime.Now,
+                        UpdateDate = DateTime.Now
                     };
                 }
                 var result = await Tips_XamarinForms.App.Context.SaveTipAsync(tip);

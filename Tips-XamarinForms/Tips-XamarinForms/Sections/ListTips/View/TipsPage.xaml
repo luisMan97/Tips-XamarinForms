@@ -19,7 +19,7 @@
                                       CommandParameter="{Binding .}"/>
                         </ViewCell.ContextActions>
                         <StackLayout Padding="15">
-                            <Label Text="{Binding CreateDate}" FontSize="Medium" TextColor="DarkGray"/>
+                            <Label Text="{Binding UpdateDate}" FontSize="Medium" TextColor="DarkGray"/>
                             <Label Text="{Binding Title}" FontSize="Medium" TextColor="Green"/>
                         </StackLayout>
                     </ViewCell>

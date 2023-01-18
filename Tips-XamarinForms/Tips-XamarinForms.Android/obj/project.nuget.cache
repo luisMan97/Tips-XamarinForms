@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X5G3llTJ49gTKyzAt4qwhr79B5DhrJqF3JvDn0kr0NK8RsSZOSeOik0c7FmDl00Mb7YdLyI0m32MPHo6bFBIVg==",
+  "dgSpecHash": "hJa+UNuTKobQWZAQVeeQcFcyCIDWGTbB85GuNh6zmmvN/NcVaR82Ez8sxZH+4YO06wh/lZUNaEnot3idpskZng==",
   "success": true,
-  "projectFilePath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
+  "projectFilePath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.Android/Tips-XamarinForms.Android.csproj",
   "expectedPackageFiles": [
     "/Users/wmolina/.nuget/packages/commonservicelocator/2.0.2/commonservicelocator.2.0.2.nupkg.sha512",
     "/Users/wmolina/.nuget/packages/mvvmlightlibs/5.4.1.1/mvvmlightlibs.5.4.1.1.nupkg.sha512",

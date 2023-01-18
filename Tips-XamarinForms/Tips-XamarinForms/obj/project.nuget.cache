@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sIpStmXdW+uaBT6Q91Wsr8Z66QRh/VuiKd55BxGynz3iwcRIAtVUajqnbNnz76jKD/3zX1mlMq699Kg/fEWPbw==",
+  "dgSpecHash": "h9vEJjhKMYnyrtTrCKT3SO48J101b8O4PBKaybreA3t3yUi5zPlUaqHC4/AVXwDIdwG/c5XsEAESWv+1pIk2Hw==",
   "success": true,
-  "projectFilePath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
+  "projectFilePath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj",
   "expectedPackageFiles": [
     "/Users/wmolina/.nuget/packages/commonservicelocator/2.0.2/commonservicelocator.2.0.2.nupkg.sha512",
     "/Users/wmolina/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",

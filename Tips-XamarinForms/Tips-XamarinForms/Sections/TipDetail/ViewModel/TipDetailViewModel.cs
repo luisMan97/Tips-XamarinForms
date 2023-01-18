@@ -28,7 +28,7 @@ namespace TipsXamarinForms.Sections.TipDetail.ViewModel
         public TipDetailViewModel(Data.Tip _tip)
 		{
             Tip = _tip;
-            DateText = _tip.CreateDate.Date.ToString();
+            DateText = _tip.UpdateDate.Date.ToString();
         }
         #endregion
     }

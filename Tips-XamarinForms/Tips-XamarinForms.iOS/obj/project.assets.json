@@ -1877,11 +1877,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/Tips-XamarinForms.iOS.csproj",
+      "projectUniqueName": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/Tips-XamarinForms.iOS.csproj",
       "projectName": "Tips_XamarinForms.iOS",
-      "projectPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/Tips-XamarinForms.iOS.csproj",
+      "projectPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/Tips-XamarinForms.iOS.csproj",
       "packagesPath": "/Users/wmolina/.nuget/packages/",
-      "outputPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/obj/",
+      "outputPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1896,8 +1896,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
-              "projectPath": "/Users/wmolina/Projects/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj"
+            "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj": {
+              "projectPath": "/Users/wmolina/Documents/JL/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms/Tips-XamarinForms.csproj"
             }
           }
         }
