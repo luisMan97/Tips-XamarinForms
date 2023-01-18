@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Agreagar un nuevo Tip"
+    x:Class="TipsXamarinForms.Views.AddTipPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Título" FontSize="Medium" TextColor="Green"/>
+            <Entry Text="{Binding TitleText}"/>
+            <Label Text="Descripción" FontSize="Medium" TextColor="Green"/>
+            <Editor HeightRequest="200" Text="{Binding DescriptionText}"/>
+            <Button Text="Guardar" Command="{Binding SaveCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

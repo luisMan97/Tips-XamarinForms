@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="sqlite-net-pcl" />
+    <None Remove="Data\" />
+    <None Remove="Sections\" />
+    <None Remove="Sections\ListTips\" />
+    <None Remove="Sections\NewTip\" />
+    <None Remove="Sections\ListTips\ViewModel\" />
+    <None Remove="Sections\NewTip\View\" />
+    <None Remove="Sections\NewTip\ViewModel\" />
+    <None Remove="Base\" />
+    <None Remove="MvvmLightLibs" />
+    <None Remove="Sections\TipDetail\" />
+    <None Remove="Sections\TipDetail\View\" />
+    <None Remove="Sections\TipDetail\ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Sections\" />
+    <Folder Include="Sections\ListTips\" />
+    <Folder Include="Sections\NewTip\" />
+    <Folder Include="Sections\ListTips\ViewModel\" />
+    <Folder Include="Sections\NewTip\View\" />
+    <Folder Include="Sections\NewTip\ViewModel\" />
+    <Folder Include="Base\" />
+    <Folder Include="Sections\TipDetail\" />
+    <Folder Include="Sections\TipDetail\View\" />
+    <Folder Include="Sections\TipDetail\ViewModel\" />
+  </ItemGroup>
+</Project>

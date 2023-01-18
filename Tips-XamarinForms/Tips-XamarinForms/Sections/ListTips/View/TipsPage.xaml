@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Tips"
+    x:Class="TipsXamarinForms.Views.TipsPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding ListViewSource}" x:Name="tipsListView" HasUnevenRows="True" ItemSelected="tipsListView_ItemSelected" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Eliminar"
+                                      IsDestructive="True"
+                                      Command="{Binding Source={x:Reference tipsListView}, Path=BindingContext.OnDelete}"
+                                      CommandParameter="{Binding .}"/>
+                        </ViewCell.ContextActions>
+                        <StackLayout Padding="15">
+                            <Label Text="{Binding CreateDate}" FontSize="Medium" TextColor="DarkGray"/>
+                            <Label Text="{Binding Title}" FontSize="Medium" TextColor="Green"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
